@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+main {
+  padding-top: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+
+  .nav-item {
+    margin-right: 15px;
+  }
+}

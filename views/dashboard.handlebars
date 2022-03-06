@@ -1,0 +1,62 @@
+<div style='text-align: center;'>
+  <button
+    type='button'
+    class='btn btn-primary'
+    data-bs-toggle='modal'
+    data-bs-target='#add-post'
+  >New Post</button>
+</div>
+
+<div>
+  <div class='card'>
+    <div class='card-body'>
+      <h5 class='card-title'>Lorem ipsum dolor</h5>
+    </div>
+  </div>
+  <div class='card'>
+    <div class='card-body'>
+      <h5 class='card-title'>Lorem ipsum dolor</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class='modal fade'
+  id='add-post'
+  tabindex='-1'
+  role='dialog'
+  aria-labelledby='add-post'
+  aria-hidden='true'
+>
+  <div class='modal-dialog'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h4 class='modal-title'>New Post</h4>
+        <button
+          type='button'
+          class='btn-close btn-close-white'
+          data-bs-dismiss='modal'
+        ></button>
+      </div>
+      <div class='modal-body'>
+        <form id='new-project-form'>
+          <div class='mb-3'>
+            <label for='title' class='form-label'>Title</label>
+            <input type='text' class='form-control' id='title' />
+          </div>
+          <div class='mb-3'>
+            <label for='description' class='form-label'>Content</label>
+            <textarea
+              type='text'
+              class='form-control'
+              id='description'
+              rows='4'
+            ></textarea>
+          </div>
+          <button type='submit' class='btn btn-primary'>Add Post</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

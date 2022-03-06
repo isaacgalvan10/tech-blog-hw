@@ -1,0 +1,29 @@
+body {
+  overflow-x: hidden;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+main {
+  padding-top: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
